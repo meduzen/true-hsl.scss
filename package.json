@@ -1,0 +1,25 @@
+{
+  "name": "hsl.scss",
+  "version": "1.0.0",
+  "description": "SCSS hsl() and hsla() functions outputting hsl() and hsla() instead of being converted to rgb() and rgba().",
+  "main": "src/functions/hsl.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "css",
+    "colors",
+    "hsl",
+    "hsla",
+    "sass",
+    "scss",
+    "function"
+  ],
+  "homepage": "https://github.com/meduzen/true-hsl.scss",
+  "author": "Mehdi Merah <hi@mehdi.cc>",
+  "license": "WTFPL",
+  "repository": "github:meduzen/true-hsl.scss.git",
+  "bugs": {
+    "url": "https://github.com/meduzen/true-hsl.scss/issues"
+  }
+}

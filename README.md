@@ -1,6 +1,3 @@
-https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#HSL_colors
-
-
 # hsl.scss
 
 [HSL colors](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#HSL_colors) [are awesome](https://www.sarasoueidan.com/blog/hex-rgb-to-hsl/). Unfortunately, the [SASS `hsl()` and `hsla()` functions](https://sass-lang.com/documentation/functions/color#hsl) converts the colors to RGB/RGBA format.
@@ -14,7 +11,7 @@ _hsl.scss_ replaces the two SASS functions by two others, preserving HSL(A) colo
 
 ## Usage
 
-Write colors:
+Write regular CSS, the syntax is exactly the same:
 ```scss
 :root {
   color: hsl(15deg, 100%, 50%);
@@ -27,3 +24,5 @@ Write colors:
   $transparent-flashy-pink: hsla(15deg 100% 50% / .7); // opacity after a slash
 }
 ```
+
+There’s currently no test enforcing the validity of what is passed to `hsl()` and `hsla()`.
