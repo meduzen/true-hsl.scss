@@ -5,6 +5,8 @@
 
 _hsl.scss_ replaces the two SASS functions by two others, preserving HSL(A) color declarations.
 
+[Demo](https://codepen.io/meduzen/pen/BaBKdBb?editors=0100#0)
+
 ## Installation
 
 1. `npm install hsl.scss` pulls the package into your project.
