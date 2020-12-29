@@ -1,11 +1,12 @@
 {
   "name": "hsl.scss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SCSS hsl() and hsla() functions outputting hsl() and hsla() instead of being converted to rgb() and rgba().",
   "main": "src/functions/hsl.scss",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [],
   "keywords": [
     "css",
     "colors",
